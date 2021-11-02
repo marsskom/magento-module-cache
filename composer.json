@@ -1,0 +1,25 @@
+{
+    "name": "marsskom/magento-module-cache",
+    "description": "Magento 2 module that cached methods results.",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0"
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "version": "104.0.2",
+    "require": {
+        "php": "~7.4.0",
+        "magento/framework": "103.0.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Marsskom\\Cache\\": ""
+        }
+    }
+}
+
